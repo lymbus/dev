@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title> Hola,soy Lydia, desarrolladora Frontend.</title>
+    <meta name="title" content="    Hola,soy Lydia, desarrolladora Front-End.">
+    <meta name="description"
+        content="Por un lado trabajo con HTML, CSS, SCSS y Javascript, por otro haciendo 3D con Blender. ">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="    Hola,soy Lydia, desarrolladora Front-End.">
+    <meta property="og:description"
+        content="Por un lado trabajo con HTML, CSS, SCSS y Javascript, por otro haciendo 3D con Blender.">
+    <meta property="og:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="    Hola,soy Lydia, desarrolladora Front-End.">
+    <meta property="twitter:description"
+        content="Por un lado trabajo con HTML, CSS, SCSS y Javascript, por otro haciendo 3D con Blender.">
+    <meta property="twitter:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="header__h1">
+            <a class="header__logo " href="#" title="logo"> Lydia </a>
+        </h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li class="header__li">
+                    <a class="header__a" href="index.html" title="Inicio">Inicio .
+                        <img class="header__svg" src="assets/pincel1.svg" alt="pincel" loading="lazy">
+                    </a>
+                </li>
+                <li class="header__li">
+                    <a class="header__a" href="proyectos.html" title="Porfolio">Porfolio.
+                        <img class="header__svg " src="assets/pincel1.svg" alt="pincel" loading="lazy">
+                    </a>
+                </li>
+                <li class="header__li">
+                    <a class="header__a" href="about.html" title="Sobre mi"> Sobre mi.
+                        <img class="header__svg" src="assets/pincel1.svg" alt="pincel" loading="lazy">
+                    </a>
+                </li>
+                <li class="header__li">
+                    <a class="header__a" id="contacto.html" href="#" title="Contacto"> Contacto.
+                        <img class="header__svg des" src="assets/pincel1.svg" alt="pincel" loading="lazy">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__menu"></div>
+    </header>
+    <main class="main">
+        <div class="cursor"></div>
+        <section class="contact">
+            <article class="contact__form">
+                <h2 class="contact__h2">Contacto.</h2>
+                <div>
+                    <p>Puedes encontrarme en LinkedIn:</p>
+                    <a class="contacto__a fab fab fa-linkedin-in"
+                    href="https://www.linkedin.com/in/lydia-est%C3%A9vez-chamorro/" title="LinkedIn" target="_blank" rel="noopener noreferrer"></a>
+                </div>
+                <p class="contact__p">¡Hablemos!</p>
+                
+                <form class="form" action="https://formspree.io/f/xleokzvb" method="post">
+                    <div class="form__camp">
+                        <label class="form__label" for="mail">E-mail:</label>
+                        <input class="form__enter" id="mail" type="text" name="_replyto" placeholder="Email">
+                    </div>
+                    <div class="form__camp">
+                        <label class="form__label" for="mensaje">Mensaje:</label>
+                        <textarea class="form__enter message" id="mensaje" name="message"
+                            placeholder="Mensaje"></textarea>
+                    </div>
+                    <button class="form__button" type="submit">Enviar</button>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer__ul">
+            <li class="footer__li">
+                <a class="footer__fab fab fa-github" href="https://github.com/lymbus" title="Github" target="_blank"
+                    rel="noopener noreferrer"></a>
+            </li>
+            <li class="footer__li">
+                <a class="footer__fab fab fab fa-linkedin-in"
+                    href="https://www.linkedin.com/in/lydia-est%C3%A9vez-chamorro/" title="LinkedIn" target="_blank"
+                    rel="noopener noreferrer"></a>
+            </li>
+        </ul>
+        <p class="footer__copy">© Lydia Estévez Chamorro 2021</p>
+    </footer>
+</body>
+
+</html>
